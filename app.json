@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "fcmExpoNotis",
-    "slug": "fcmExpoNotis",
+    "slug": "fcmexponotis",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["NOTIFICATIONS"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2ce92763-22ec-4da6-88fb-edbf93fa2bfb"
+      }
+    },
+    "owner": "eemi"
   }
 }
